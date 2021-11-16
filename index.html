@@ -24,7 +24,7 @@
         const stringifiedResult = JSON.stringify(result);
         obj = JSON.parse(stringifiedResult);
         var xmlhttp = new XMLHttpRequest();
-        var url = "https://script.google.com/macros/s/AKfycbw5CrtlMDLpsFjOPWIGylftNqw9SZF01rgztvmplfy7Vk0KujCL/exec";
+        var url = "https://script.google.com/macros/s/AKfycbzRtegE0VNyvtj4Rf9YCIMDwG9hlFVfNqw_4qoXTVXnmm6KAU0F6YIBa9OvcLlAYGzqYA/exec";
         var theUrl = url+"?value="+obj.value+"&name="+xx;
         xmlhttp.open('GET', theUrl);
         xmlhttp.send();
